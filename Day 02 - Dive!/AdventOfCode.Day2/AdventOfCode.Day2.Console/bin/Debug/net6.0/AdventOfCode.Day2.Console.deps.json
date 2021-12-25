@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AdventOfCode.Day2.Console/1.0.0": {
+        "dependencies": {
+          "AdventOfCode.Day2.Algorithms": "1.0.0"
+        },
+        "runtime": {
+          "AdventOfCode.Day2.Console.dll": {}
+        }
+      },
+      "AdventOfCode.Day2.Algorithms/1.0.0": {
+        "runtime": {
+          "AdventOfCode.Day2.Algorithms.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdventOfCode.Day2.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdventOfCode.Day2.Algorithms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

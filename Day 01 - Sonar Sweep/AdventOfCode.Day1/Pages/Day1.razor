@@ -1,0 +1,29 @@
+﻿@page "/day1"
+@using AdventOfCode.Day1.Data
+<PageTitle>Advent of Code: Day 1</PageTitle>
+
+<h1>Advent of Code: Day 1</h1>
+
+<EditForm Model="@measurements" OnValidSubmit="@HandleValidSubmit">
+    <InputNumber @bind-Value="measurements.Measurement1" /> <br />
+    <InputNumber @bind-Value="measurements.Measurement2" /> <br />
+    <InputNumber @bind-Value="measurements.Measurement3" /> <br />
+    <InputNumber @bind-Value="measurements.Measurement4" /> <br />
+    <InputNumber @bind-Value="measurements.Measurement5" /> <br />
+    <InputNumber @bind-Value="measurements.Measurement6" /> <br />
+    <InputNumber @bind-Value="measurements.Measurement7" /> <br />
+    <InputNumber @bind-Value="measurements.Measurement8" /> <br />
+    <InputNumber @bind-Value="measurements.Measurement9" /> <br />
+    <InputNumber @bind-Value="measurements.Measurement10" />
+    <br /><br />
+    <button type="submit">Show Changes</button>
+</EditForm>
+
+@code {
+    private Measurements measurements = new();
+
+    private void HandleValidSubmit()
+    {
+
+    }
+}

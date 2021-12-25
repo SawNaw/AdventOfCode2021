@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "AdventOfCode.Day3BinaryDiagnostic.RateCalculators/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AdventOfCode.Day3BinaryDiagnostic.RateCalculators.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AdventOfCode.Day3BinaryDiagnostic.RateCalculators.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdventOfCode.Day3BinaryDiagnostic.RateCalculators/1.0.0": {
+      "type": "project",
+      "path": "../AdventOfCode.Day3BinaryDiagnostic.RateCalculator/AdventOfCode.Day3BinaryDiagnostic.RateCalculators.csproj",
+      "msbuildProject": "../AdventOfCode.Day3BinaryDiagnostic.RateCalculator/AdventOfCode.Day3BinaryDiagnostic.RateCalculators.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "AdventOfCode.Day3BinaryDiagnostic.RateCalculators >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\water\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\water\\source\\repos\\AdventOfCode2021\\Day 03 - Binary Diagnostic\\AdventOfCode.Day3BinaryDiagnostic.Console\\AdventOfCode.Day3BinaryDiagnostic.Console.csproj",
+      "projectName": "AdventOfCode.Day3BinaryDiagnostic.Console",
+      "projectPath": "C:\\Users\\water\\source\\repos\\AdventOfCode2021\\Day 03 - Binary Diagnostic\\AdventOfCode.Day3BinaryDiagnostic.Console\\AdventOfCode.Day3BinaryDiagnostic.Console.csproj",
+      "packagesPath": "C:\\Users\\water\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\water\\source\\repos\\AdventOfCode2021\\Day 03 - Binary Diagnostic\\AdventOfCode.Day3BinaryDiagnostic.Console\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\water\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nuget.carfinance247.co.uk": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/carfinance247/_packaging/cf247feed/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\water\\source\\repos\\AdventOfCode2021\\Day 03 - Binary Diagnostic\\AdventOfCode.Day3BinaryDiagnostic.RateCalculator\\AdventOfCode.Day3BinaryDiagnostic.RateCalculators.csproj": {
+              "projectPath": "C:\\Users\\water\\source\\repos\\AdventOfCode2021\\Day 03 - Binary Diagnostic\\AdventOfCode.Day3BinaryDiagnostic.RateCalculator\\AdventOfCode.Day3BinaryDiagnostic.RateCalculators.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

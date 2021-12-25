@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\water\\source\\repos\\AdventOfCode2021\\Day 02 - Dive!\\AdventOfCode.Day2\\AdventOfCode.Day2.Tests\\AdventOfCode.Day2.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\water\\source\\repos\\AdventOfCode2021\\Day 02 - Dive!\\AdventOfCode.Day2\\AdventOfCode.Day2.Algorithms\\AdventOfCode.Day2.Algorithms.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\water\\source\\repos\\AdventOfCode2021\\Day 02 - Dive!\\AdventOfCode.Day2\\AdventOfCode.Day2.Algorithms\\AdventOfCode.Day2.Algorithms.csproj",
+        "projectName": "AdventOfCode.Day2.Algorithms",
+        "projectPath": "C:\\Users\\water\\source\\repos\\AdventOfCode2021\\Day 02 - Dive!\\AdventOfCode.Day2\\AdventOfCode.Day2.Algorithms\\AdventOfCode.Day2.Algorithms.csproj",
+        "packagesPath": "C:\\Users\\water\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\water\\source\\repos\\AdventOfCode2021\\Day 02 - Dive!\\AdventOfCode.Day2\\AdventOfCode.Day2.Algorithms\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\water\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.carfinance247.co.uk": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/carfinance247/_packaging/cf247feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\water\\source\\repos\\AdventOfCode2021\\Day 02 - Dive!\\AdventOfCode.Day2\\AdventOfCode.Day2.Tests\\AdventOfCode.Day2.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\water\\source\\repos\\AdventOfCode2021\\Day 02 - Dive!\\AdventOfCode.Day2\\AdventOfCode.Day2.Tests\\AdventOfCode.Day2.Tests.csproj",
+        "projectName": "AdventOfCode.Day2.Tests",
+        "projectPath": "C:\\Users\\water\\source\\repos\\AdventOfCode2021\\Day 02 - Dive!\\AdventOfCode.Day2\\AdventOfCode.Day2.Tests\\AdventOfCode.Day2.Tests.csproj",
+        "packagesPath": "C:\\Users\\water\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\water\\source\\repos\\AdventOfCode2021\\Day 02 - Dive!\\AdventOfCode.Day2\\AdventOfCode.Day2.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\water\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.carfinance247.co.uk": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/carfinance247/_packaging/cf247feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\water\\source\\repos\\AdventOfCode2021\\Day 02 - Dive!\\AdventOfCode.Day2\\AdventOfCode.Day2.Algorithms\\AdventOfCode.Day2.Algorithms.csproj": {
+                "projectPath": "C:\\Users\\water\\source\\repos\\AdventOfCode2021\\Day 02 - Dive!\\AdventOfCode.Day2\\AdventOfCode.Day2.Algorithms\\AdventOfCode.Day2.Algorithms.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
