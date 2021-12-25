@@ -8,7 +8,7 @@ namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators
 {
     internal class DiagnosticReport
     {
-        public IReadOnlyList<BinaryNumber>? Content {get; init;}
+        public IReadOnlyList<BinaryNumber>? Content { get; init; }
 
         public DiagnosticReport(string inputFilePath)
         {
