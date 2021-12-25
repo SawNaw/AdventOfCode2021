@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators
+namespace AdventOfCode.Day3BinaryDiagnostic.DataStructures
 {
-    internal class DiagnosticReport
+    public class DiagnosticReport
     {
         public IReadOnlyList<BinaryNumber>? Content { get; init; }
+        public int NumberOfBitsPerRow => Content.FirstOrDefault().Length;
 
         public DiagnosticReport(string inputFilePath)
         {
@@ -19,10 +20,12 @@ namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators
                 fileContent.Add(new BinaryNumber(line));
             }
 
-            if (AllLinesHaveSameLengthAsFirstLine(fileContent))
+            if (!AllLinesHaveSameLengthAsFirstLine(fileContent))
             {
-                Content = fileContent;
+                throw new InvalidDataException("All binary numbers in input file must have the same length.");
             }
+
+            Content = fileContent;
         }
 
         private bool AllLinesHaveSameLengthAsFirstLine(List<BinaryNumber> fileContent)

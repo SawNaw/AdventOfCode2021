@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators
+namespace AdventOfCode.Day3BinaryDiagnostic.DataStructures
 {
-    internal class BinaryNumber
+    public class BinaryNumber
     {
-        public int Length => this.RawContent.Length;
-        public string RawContent { get; init; }
+        public int Length => this.ContentAsString.Length;
+        public string ContentAsString { get; init; }
         private readonly bool[] contentAsBoolArray;
 
         public BinaryNumber(string input)
@@ -20,7 +20,7 @@ namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators
                 throw new ArgumentNullException(nameof(input), "A row cannot be initialized with null or empty string. ");
             }
 
-            this.RawContent = input;
+            this.ContentAsString = input;
 
             this.contentAsBoolArray = input.Select(i => CharToBool(i))
                                            .ToArray();

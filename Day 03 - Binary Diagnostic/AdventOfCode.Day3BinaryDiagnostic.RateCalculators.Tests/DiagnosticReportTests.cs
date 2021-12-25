@@ -7,6 +7,7 @@ using Xunit;
 using FluentAssertions;
 using System.IO;
 using System.Collections;
+using AdventOfCode.Day3BinaryDiagnostic.DataStructures;
 
 namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators.Tests
 {
@@ -15,12 +16,23 @@ namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators.Tests
         [Fact]
         public void ReadsFileCorrectly()
         {
-            var sut = new DiagnosticReport($"{Directory.GetCurrentDirectory()}\\InputForUnitTests.txt");
+            var sut = new DiagnosticReport($"{Directory.GetCurrentDirectory()}\\TestFiles\\SampleInput.txt");
 
-            sut.Content.Count.Should().Be(3);
-            sut.Content[0].RawContent.Should().Be("101011");
-            sut.Content[1].RawContent.Should().Be("100100");
-            sut.Content[2].RawContent.Should().Be("101010");
+            sut.Content.Count.Should().Be(12);
+            sut.Content[0].ContentAsString.Should().Be("00100");
+            sut.Content[1].ContentAsString.Should().Be("11110");
+            sut.Content[5].ContentAsString.Should().Be("01111");
+            sut.Content[10].ContentAsString.Should().Be("00010");
+        }
+
+        
+        [Fact]
+        public void Throws_WhenInputFile_ContainsNumbers_OfUnevenLengths()
+        {
+            DiagnosticReport sut;
+            Action act = () => sut = new DiagnosticReport($"{Directory.GetCurrentDirectory()}\\TestFiles\\InputFileWithUnevenLengths.txt");
+
+            act.Should().Throw<InvalidDataException>();    
         }
     }
 }

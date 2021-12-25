@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators
 {
-    internal class EpsilonRateCalculator
+    internal enum RateType
     {
+        Gamma,
+        Epsilon,
     }
 }

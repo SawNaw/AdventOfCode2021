@@ -1,7 +1,7 @@
-using Xunit;
-using AdventOfCode.Day3BinaryDiagnostic.RateCalculators;
+using AdventOfCode.Day3BinaryDiagnostic.DataStructures;
 using FluentAssertions;
 using System;
+using Xunit;
 
 namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators.Tests
 {

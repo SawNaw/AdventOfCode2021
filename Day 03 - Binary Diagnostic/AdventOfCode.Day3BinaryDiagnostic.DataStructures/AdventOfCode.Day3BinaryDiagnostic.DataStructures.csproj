@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\AdventOfCode.Day3BinaryDiagnostic.DataStructures\AdventOfCode.Day3BinaryDiagnostic.DataStructures.csproj" />
-  </ItemGroup>
-
 </Project>

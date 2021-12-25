@@ -1,4 +1,5 @@
 ﻿using AdventOfCode.Day3BinaryDiagnostic.RateCalculators;
+using AdventOfCode.Day3BinaryDiagnostic.DataStructures;
 
 // See https://aka.ms/new-console-template for more information
 
