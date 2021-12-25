@@ -17,22 +17,3 @@ C:\Users\water\source\repos\AdventOfCode2021\AdventOfCode.Day3BinaryDiagnostic.C
 C:\Users\water\source\repos\AdventOfCode2021\AdventOfCode.Day3BinaryDiagnostic.Console\obj\Debug\net6.0\ref\AdventOfCode.Day3BinaryDiagnostic.Console.dll
 C:\Users\water\source\repos\AdventOfCode2021\AdventOfCode.Day3BinaryDiagnostic.Console\obj\Debug\net6.0\AdventOfCode.Day3BinaryDiagnostic.Console.pdb
 C:\Users\water\source\repos\AdventOfCode2021\AdventOfCode.Day3BinaryDiagnostic.Console\obj\Debug\net6.0\AdventOfCode.Day3BinaryDiagnostic.Console.genruntimeconfig.cache
-C:\Users\water\source\repos\AdventOfCode2021\Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\bin\Debug\net6.0\PuzzleInput.txt
-C:\Users\water\source\repos\AdventOfCode2021\Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\bin\Debug\net6.0\AdventOfCode.Day3BinaryDiagnostic.Console.exe
-C:\Users\water\source\repos\AdventOfCode2021\Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\bin\Debug\net6.0\AdventOfCode.Day3BinaryDiagnostic.Console.deps.json
-C:\Users\water\source\repos\AdventOfCode2021\Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\bin\Debug\net6.0\AdventOfCode.Day3BinaryDiagnostic.Console.runtimeconfig.json
-C:\Users\water\source\repos\AdventOfCode2021\Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\bin\Debug\net6.0\AdventOfCode.Day3BinaryDiagnostic.Console.dll
-C:\Users\water\source\repos\AdventOfCode2021\Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\bin\Debug\net6.0\ref\AdventOfCode.Day3BinaryDiagnostic.Console.dll
-C:\Users\water\source\repos\AdventOfCode2021\Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\bin\Debug\net6.0\AdventOfCode.Day3BinaryDiagnostic.Console.pdb
-C:\Users\water\source\repos\AdventOfCode2021\Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\bin\Debug\net6.0\AdventOfCode.Day3BinaryDiagnostic.RateCalculators.dll
-C:\Users\water\source\repos\AdventOfCode2021\Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\bin\Debug\net6.0\AdventOfCode.Day3BinaryDiagnostic.RateCalculators.pdb
-C:\Users\water\source\repos\AdventOfCode2021\Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\obj\Debug\net6.0\AdventOfCode.Day3BinaryDiagnostic.Console.csproj.AssemblyReference.cache
-C:\Users\water\source\repos\AdventOfCode2021\Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\obj\Debug\net6.0\AdventOfCode.Day3BinaryDiagnostic.Console.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\water\source\repos\AdventOfCode2021\Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\obj\Debug\net6.0\AdventOfCode.Day3BinaryDiagnostic.Console.AssemblyInfoInputs.cache
-C:\Users\water\source\repos\AdventOfCode2021\Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\obj\Debug\net6.0\AdventOfCode.Day3BinaryDiagnostic.Console.AssemblyInfo.cs
-C:\Users\water\source\repos\AdventOfCode2021\Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\obj\Debug\net6.0\AdventOfCode.Day3BinaryDiagnostic.Console.csproj.CoreCompileInputs.cache
-C:\Users\water\source\repos\AdventOfCode2021\Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\obj\Debug\net6.0\AdventOfCode.Day3BinaryDiagnostic.Console.csproj.CopyComplete
-C:\Users\water\source\repos\AdventOfCode2021\Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\obj\Debug\net6.0\AdventOfCode.Day3BinaryDiagnostic.Console.dll
-C:\Users\water\source\repos\AdventOfCode2021\Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\obj\Debug\net6.0\ref\AdventOfCode.Day3BinaryDiagnostic.Console.dll
-C:\Users\water\source\repos\AdventOfCode2021\Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\obj\Debug\net6.0\AdventOfCode.Day3BinaryDiagnostic.Console.pdb
-C:\Users\water\source\repos\AdventOfCode2021\Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\obj\Debug\net6.0\AdventOfCode.Day3BinaryDiagnostic.Console.genruntimeconfig.cache

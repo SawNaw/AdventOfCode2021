@@ -25,4 +25,10 @@
     <ProjectReference Include="..\AdventOfCode.Day3BinaryDiagnostic.RateCalculator\AdventOfCode.Day3BinaryDiagnostic.RateCalculators.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="InputForUnitTests.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

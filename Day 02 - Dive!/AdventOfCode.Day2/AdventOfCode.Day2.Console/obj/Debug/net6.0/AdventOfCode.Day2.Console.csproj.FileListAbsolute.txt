@@ -38,23 +38,3 @@ C:\Users\water\source\repos\AdventOfCode2021\Day2\AdventOfCode.Day2\AdventOfCode
 C:\Users\water\source\repos\AdventOfCode2021\Day2\AdventOfCode.Day2\AdventOfCode.Day2.Console\obj\Debug\net6.0\ref\AdventOfCode.Day2.Console.dll
 C:\Users\water\source\repos\AdventOfCode2021\Day2\AdventOfCode.Day2\AdventOfCode.Day2.Console\obj\Debug\net6.0\AdventOfCode.Day2.Console.pdb
 C:\Users\water\source\repos\AdventOfCode2021\Day2\AdventOfCode.Day2\AdventOfCode.Day2.Console\obj\Debug\net6.0\AdventOfCode.Day2.Console.genruntimeconfig.cache
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\bin\Debug\net6.0\AdventOfCode.Day2.Console.exe
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\bin\Debug\net6.0\Input.txt
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\bin\Debug\net6.0\SampleInput.txt
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\bin\Debug\net6.0\AdventOfCode.Day2.Console.deps.json
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\bin\Debug\net6.0\AdventOfCode.Day2.Console.runtimeconfig.json
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\bin\Debug\net6.0\AdventOfCode.Day2.Console.dll
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\bin\Debug\net6.0\ref\AdventOfCode.Day2.Console.dll
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\bin\Debug\net6.0\AdventOfCode.Day2.Console.pdb
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\bin\Debug\net6.0\AdventOfCode.Day2.Algorithms.dll
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\bin\Debug\net6.0\AdventOfCode.Day2.Algorithms.pdb
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\obj\Debug\net6.0\AdventOfCode.Day2.Console.csproj.AssemblyReference.cache
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\obj\Debug\net6.0\AdventOfCode.Day2.Console.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\obj\Debug\net6.0\AdventOfCode.Day2.Console.AssemblyInfoInputs.cache
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\obj\Debug\net6.0\AdventOfCode.Day2.Console.AssemblyInfo.cs
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\obj\Debug\net6.0\AdventOfCode.Day2.Console.csproj.CoreCompileInputs.cache
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\obj\Debug\net6.0\AdventOfCode.Day2.Console.csproj.CopyComplete
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\obj\Debug\net6.0\AdventOfCode.Day2.Console.dll
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\obj\Debug\net6.0\ref\AdventOfCode.Day2.Console.dll
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\obj\Debug\net6.0\AdventOfCode.Day2.Console.pdb
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Console\obj\Debug\net6.0\AdventOfCode.Day2.Console.genruntimeconfig.cache

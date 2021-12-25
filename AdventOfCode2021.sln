@@ -26,13 +26,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode.Day17TrickShot.Tests", "Day 17 - Trick Shot\AdventOfCode.Day17TrickShot.Tests\AdventOfCode.Day17TrickShot.Tests.csproj", "{AB71D4BB-037E-49FB-9DD0-DA3353069694}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 03 - Binary Diagnostic", "Day 03 - Binary Diagnostic", "{08C02744-3AC6-4022-8B78-5BBF4CB1BF72}"
-	ProjectSection(SolutionItems) = preProject
-		PuzzleInput.txt = PuzzleInput.txt
-	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Day3BinaryDiagnostic.RateCalculators", "Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.RateCalculator\AdventOfCode.Day3BinaryDiagnostic.RateCalculators.csproj", "{07AE2F45-82FE-4FB5-B225-6A3798EF0BEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode.Day3BinaryDiagnostic.RateCalculators", "Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.RateCalculator\AdventOfCode.Day3BinaryDiagnostic.RateCalculators.csproj", "{07AE2F45-82FE-4FB5-B225-6A3798EF0BEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Day3BinaryDiagnostic.RateCalculators.Tests", "Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.RateCalculators.Tests\AdventOfCode.Day3BinaryDiagnostic.RateCalculators.Tests.csproj", "{7A3AA596-94F4-4596-B922-1F2358F9C1D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode.Day3BinaryDiagnostic.RateCalculators.Tests", "Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.RateCalculators.Tests\AdventOfCode.Day3BinaryDiagnostic.RateCalculators.Tests.csproj", "{7A3AA596-94F4-4596-B922-1F2358F9C1D8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode.Day3BinaryDiagnostic.Console", "Day 03 - Binary Diagnostic\AdventOfCode.Day3BinaryDiagnostic.Console\AdventOfCode.Day3BinaryDiagnostic.Console.csproj", "{115CF03B-2D2B-4735-8BBE-CD94DC6796D1}"
 EndProject

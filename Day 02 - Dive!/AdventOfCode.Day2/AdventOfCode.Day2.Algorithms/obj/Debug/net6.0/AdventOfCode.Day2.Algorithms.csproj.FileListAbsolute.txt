@@ -20,14 +20,3 @@ C:\Users\water\source\repos\AdventOfCode2021\Day2\AdventOfCode.Day2\AdventOfCode
 C:\Users\water\source\repos\AdventOfCode2021\Day2\AdventOfCode.Day2\AdventOfCode.Day2.Algorithms\obj\Debug\net6.0\AdventOfCode.Day2.Algorithms.dll
 C:\Users\water\source\repos\AdventOfCode2021\Day2\AdventOfCode.Day2\AdventOfCode.Day2.Algorithms\obj\Debug\net6.0\ref\AdventOfCode.Day2.Algorithms.dll
 C:\Users\water\source\repos\AdventOfCode2021\Day2\AdventOfCode.Day2\AdventOfCode.Day2.Algorithms\obj\Debug\net6.0\AdventOfCode.Day2.Algorithms.pdb
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Algorithms\bin\Debug\net6.0\AdventOfCode.Day2.Algorithms.deps.json
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Algorithms\bin\Debug\net6.0\AdventOfCode.Day2.Algorithms.dll
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Algorithms\bin\Debug\net6.0\ref\AdventOfCode.Day2.Algorithms.dll
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Algorithms\bin\Debug\net6.0\AdventOfCode.Day2.Algorithms.pdb
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Algorithms\obj\Debug\net6.0\AdventOfCode.Day2.Algorithms.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Algorithms\obj\Debug\net6.0\AdventOfCode.Day2.Algorithms.AssemblyInfoInputs.cache
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Algorithms\obj\Debug\net6.0\AdventOfCode.Day2.Algorithms.AssemblyInfo.cs
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Algorithms\obj\Debug\net6.0\AdventOfCode.Day2.Algorithms.csproj.CoreCompileInputs.cache
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Algorithms\obj\Debug\net6.0\AdventOfCode.Day2.Algorithms.dll
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Algorithms\obj\Debug\net6.0\ref\AdventOfCode.Day2.Algorithms.dll
-C:\Users\water\source\repos\AdventOfCode2021\Day 02 - Dive!\AdventOfCode.Day2\AdventOfCode.Day2.Algorithms\obj\Debug\net6.0\AdventOfCode.Day2.Algorithms.pdb

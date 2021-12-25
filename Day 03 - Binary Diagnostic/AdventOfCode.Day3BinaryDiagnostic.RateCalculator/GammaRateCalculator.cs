@@ -1,7 +1,11 @@
 ﻿namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators
 {
-    public class GammaRateCalculator
+    internal class GammaRateCalculator
     {
-
+        private DiagnosticReport diagnosticReport;
+        public GammaRateCalculator(DiagnosticReport diagnosticReport)
+        {
+            this.diagnosticReport = diagnosticReport;
+        }
     }
 }

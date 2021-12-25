@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators
 {
-    internal record class BinaryNumber
+    internal class BinaryNumber
     {
         public int Length => this.RawContent.Length;
-        private string RawContent { get; init; }
-        private readonly BitArray contentAsBitArray;
+        public string RawContent { get; init; }
+        private readonly bool[] contentAsBoolArray;
 
         public BinaryNumber(string input)
         {
@@ -22,16 +22,16 @@ namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators
 
             this.RawContent = input;
 
-            this.contentAsBitArray = new BitArray(input.Select(i => BitToBool(i))
-                                                  .ToArray());
+            this.contentAsBoolArray = input.Select(i => CharToBool(i))
+                                           .ToArray();
         }
 
         public bool DigitAt(int index)
         {
-            return contentAsBitArray[index];
+            return contentAsBoolArray[index];
         }
 
-        private static bool BitToBool(char bit)
+        private static bool CharToBool(char bit)
         {
             if (bit == '0')
             {
