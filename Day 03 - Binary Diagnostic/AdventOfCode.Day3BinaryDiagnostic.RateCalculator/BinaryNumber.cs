@@ -17,7 +17,7 @@ namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators
         {
             if (string.IsNullOrWhiteSpace(input))
             {
-                throw new ArgumentNullException(nameof(input), "A row cannot be initialized with null or empty string.");
+                throw new ArgumentNullException(nameof(input), "A row cannot be initialized with null or empty string. ");
             }
 
             this.RawContent = input;
