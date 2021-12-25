@@ -12,18 +12,6 @@ namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators.Tests
 {
     public class DiagnosticReportTests
     {
-        private class Thing
-        {
-            private string SomeThing;
-            private int AnotherThing;
-
-            public Thing(string thing, int another)
-            {
-                SomeThing = thing;
-                AnotherThing = another; 
-            }
-        }
-
         [Fact]
         public void ReadsFileCorrectly()
         {
