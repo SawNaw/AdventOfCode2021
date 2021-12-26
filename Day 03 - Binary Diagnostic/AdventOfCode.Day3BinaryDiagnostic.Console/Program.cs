@@ -1,5 +1,5 @@
-﻿using AdventOfCode.Day3BinaryDiagnostic.RateCalculators;
-using AdventOfCode.Day3BinaryDiagnostic.DataStructures;
+﻿using AdventOfCode.Day3BinaryDiagnostic.DataStructures;
+using AdventOfCode.Day3BinaryDiagnostic.RateCalculators;
 
 // See https://aka.ms/new-console-template for more information
 
@@ -11,8 +11,6 @@ int answerToPartOne = powerConsumptionCalculator.Calculate();
 
 var lifeSupportRatingCalculator = new LifeSupportRatingCalculator(new OxygenCO2RatingCalculator(new DiagnosticReport(filePath)));
 int answerToPartTwo = lifeSupportRatingCalculator.Calculate();
-
-char[] array = new char[] { '1', '1', '1', '0', '0', '0' };
 
 Console.WriteLine("Answer to Part One");
 Console.WriteLine("--------------------");
