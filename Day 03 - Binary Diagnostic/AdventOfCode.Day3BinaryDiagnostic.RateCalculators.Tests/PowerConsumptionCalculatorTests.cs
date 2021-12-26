@@ -19,7 +19,7 @@ namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators.Tests
         [InlineData(6, 7, 42)]
         public void Calculate_ReturnsProduct_OfGammaAndEpsilonRates(int gammaRate, int epsilonRate, int expectedPowerConsumption)
         {
-            var rateCalculator = new Mock<IRateCalculator>();
+            var rateCalculator = new Mock<IGammaEpsilonRateCalculator>();
             rateCalculator.Setup(r => r.CalculateGammaRate()).Returns(gammaRate);
             rateCalculator.Setup(r => r.CalculateEpsilonRate()).Returns(epsilonRate);
 
@@ -31,7 +31,7 @@ namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators.Tests
         public void Calculate_ReturnsCorrectResult_ForInputFile()
         {
             var report = new DiagnosticReport($"{Directory.GetCurrentDirectory()}\\TestFiles\\SampleInput.txt");
-            var calculator = new PowerConsumptionCalculator(new RateCalculator(report));
+            var calculator = new PowerConsumptionCalculator(new GammaEpsilonRateCalculator(report));
             calculator.Calculate().Should().Be(198);
         }
 
@@ -39,7 +39,7 @@ namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators.Tests
         public void Calculate_ReturnsCorrectResult_ForMyPersonalInputFile()
         {
             var report = new DiagnosticReport($"{Directory.GetCurrentDirectory()}\\TestFiles\\MyPersonalInputFile.txt");
-            var calculator = new PowerConsumptionCalculator(new RateCalculator(report));
+            var calculator = new PowerConsumptionCalculator(new GammaEpsilonRateCalculator(report));
             calculator.Calculate().Should().Be(3320834);
         }
     }

@@ -7,10 +7,10 @@ using AdventOfCode.Day3BinaryDiagnostic.DataStructures;
 
 namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators
 {
-    internal class RateCalculator : IRateCalculator
+    internal class GammaEpsilonRateCalculator : IGammaEpsilonRateCalculator
     {
         private DiagnosticReport diagnosticReport;
-        public RateCalculator(DiagnosticReport diagnosticReport)
+        public GammaEpsilonRateCalculator(DiagnosticReport diagnosticReport)
         {
             this.diagnosticReport = diagnosticReport;
         }

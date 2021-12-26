@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators
 {
-    internal interface IRateCalculator
+    public interface IOxygenCO2RatingCalculator
     {
-        int CalculateGammaRate();
-        int CalculateEpsilonRate();
+        int CalculateOxygenGeneratorRating();
+        int CalculateCO2ScrubberRating();
     }
 }

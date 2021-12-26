@@ -2,10 +2,10 @@
 
 namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators
 {
-    public class RatingCalculator
+    public class OxygenCO2RatingCalculator : IOxygenCO2RatingCalculator
     {
         private DiagnosticReport diagnosticReport;
-        public RatingCalculator(DiagnosticReport diagnosticReport)
+        public OxygenCO2RatingCalculator(DiagnosticReport diagnosticReport)
         {
             this.diagnosticReport = diagnosticReport;
         }
@@ -45,7 +45,6 @@ namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators
 
                 if (numbers.Count == 1)
                 {
-                    Console.WriteLine("Returing");
                     return BinaryToDecimal(numbers.Single().ContentAsString);
                 }
             }

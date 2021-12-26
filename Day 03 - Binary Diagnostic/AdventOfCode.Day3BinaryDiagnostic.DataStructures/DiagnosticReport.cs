@@ -8,8 +8,8 @@ namespace AdventOfCode.Day3BinaryDiagnostic.DataStructures
 {
     public class DiagnosticReport
     {
-        public IReadOnlyList<BinaryNumber>? Content { get; init; }
-        public int NumberOfBitsPerRow => Content.FirstOrDefault().Length;
+        public IReadOnlyList<BinaryNumber> Content { get; init; }
+        public int NumberOfBitsPerRow => Content.First().Length;
 
         public DiagnosticReport(string inputFilePath)
         {

@@ -8,9 +8,9 @@ namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators
 { 
     internal class PowerConsumptionCalculator
     {
-        private readonly IRateCalculator rateCalculator;
+        private readonly IGammaEpsilonRateCalculator rateCalculator;
 
-        public PowerConsumptionCalculator(IRateCalculator rateCalculator)
+        public PowerConsumptionCalculator(IGammaEpsilonRateCalculator rateCalculator)
         {
             this.rateCalculator = rateCalculator;   
         }

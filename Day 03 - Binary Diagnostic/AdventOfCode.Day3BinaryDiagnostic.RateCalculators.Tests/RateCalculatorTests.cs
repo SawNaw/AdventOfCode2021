@@ -16,7 +16,7 @@ namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators.Tests
         public void CalculateEpsilon_ReturnsCorrectResult()
         {
             var report = new DiagnosticReport($"{Directory.GetCurrentDirectory()}\\TestFiles\\SampleInput.txt");
-            var calculator = new RateCalculator(report);
+            var calculator = new GammaEpsilonRateCalculator(report);
             calculator.CalculateEpsilonRate().Should().Be(9);
         }
 
@@ -24,7 +24,7 @@ namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators.Tests
         public void Calculate_ReturnsCorrectResult()
         {
             var report = new DiagnosticReport($"{Directory.GetCurrentDirectory()}\\TestFiles\\SampleInput.txt");
-            var calculator = new RateCalculator(report);
+            var calculator = new GammaEpsilonRateCalculator(report);
             calculator.CalculateGammaRate().Should().Be(22);
         }
     }

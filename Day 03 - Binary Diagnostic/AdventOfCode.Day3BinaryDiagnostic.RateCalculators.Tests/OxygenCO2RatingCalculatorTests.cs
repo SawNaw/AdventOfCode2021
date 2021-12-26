@@ -10,13 +10,13 @@ using Xunit;
 
 namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators.Tests
 {
-    public class RatingCalculatorTests
+    public class OxygenCO2RatingCalculatorTests
     {
         [Fact]
         public void CalculateOxygenGeneratorRating_ReturnsCorrectResult()
         {
             var report = new DiagnosticReport($"{Directory.GetCurrentDirectory()}\\TestFiles\\SampleInput.txt");
-            var calculator = new RatingCalculator(report);
+            var calculator = new OxygenCO2RatingCalculator(report);
             calculator.CalculateOxygenGeneratorRating().Should().Be(23);
         }
 
@@ -24,7 +24,7 @@ namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators.Tests
         public void CalculateCO2ScrubberRating_ReturnsCorrectResult()
         {
             var report = new DiagnosticReport($"{Directory.GetCurrentDirectory()}\\TestFiles\\SampleInput.txt");
-            var calculator = new RatingCalculator(report);
+            var calculator = new OxygenCO2RatingCalculator(report);
             calculator.CalculateCO2ScrubberRating().Should().Be(10);
         }
     }
