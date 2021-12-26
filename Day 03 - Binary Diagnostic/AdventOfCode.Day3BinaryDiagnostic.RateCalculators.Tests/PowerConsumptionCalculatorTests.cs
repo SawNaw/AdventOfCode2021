@@ -34,5 +34,13 @@ namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators.Tests
             var calculator = new PowerConsumptionCalculator(new RateCalculator(report));
             calculator.Calculate().Should().Be(198);
         }
+
+        [Fact]
+        public void Calculate_ReturnsCorrectResult_ForMyPersonalInputFile()
+        {
+            var report = new DiagnosticReport($"{Directory.GetCurrentDirectory()}\\TestFiles\\MyPersonalInputFile.txt");
+            var calculator = new PowerConsumptionCalculator(new RateCalculator(report));
+            calculator.Calculate().Should().Be(3320834);
+        }
     }
 }

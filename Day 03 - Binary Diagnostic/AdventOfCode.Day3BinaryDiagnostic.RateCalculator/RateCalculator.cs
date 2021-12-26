@@ -62,5 +62,10 @@ namespace AdventOfCode.Day3BinaryDiagnostic.RateCalculators
 
             return Convert.ToInt32(binaryNumber, 2);
         }
+        private enum RateType
+        {
+            Gamma,
+            Epsilon,
+        }
     }
 }
